@@ -1,0 +1,124 @@
+Each question in this assignment presents a constructor declaration. For each, provide the code needed to instantiate using that constructor
+Each of the following rows presents a constructor declaration.
+Provide the code required to instantiate an instance using the given constructor.
+Examples:
+Given this constructor...
+public Car()
+You provide
+new Car()
+
+public Bicycle(int startCadence, int startSpeed, int startGear) {    
+	gear = startGear;
+    cadence = startCadence;
+    speed = startSpeed;
+
+}
+
+Bicycle myBike = new Bicycle(30, 0, 8);
+new Bicycle(30, 0, 8) 
+
+creates space in memory for the object and initializes its fields.
+
+
+
+
+
+
+public Car (Boolean newCar, String manufacturer, String mpg)  { 
+
+	
+Car dodge = new Car(true, "Dodge", "80")
+
+	newCar = true;
+	manufacturer = Ford;
+	mpg = 30;  
+
+}
+
+
+
+}
+
+1) 
+public Car (Boolean newCar, String manufacturer, String mpg)  { 
+	
+Car dodge = new Car(true, "Dodge", "80"); 
+}
+
+
+2) public Bean(int weight) {
+
+
+Bean jumpingBean = new Bean(20);
+
+}
+
+3) public Airplane(long maxDistance){
+
+   Airplane valuJet = new Airplane(10000);
+}
+
+  
+4) public Bus(int seats)   {
+	Bus greyHound = new Greyhound(50);
+}
+
+5) public SkiLift(int chairs, float maxSpeed, float maxCapacity) (
+	SkiLift tiny = new SkiLift (20, 5, 25);
+
+}
+
+6) public Gondola(int maxOccupancy){
+	Gondola leaky = new Gondola (6);
+}
+
+7) public Data(String[] args) {
+	Data faked = new Data (new string[] {patient1, patient2, patient3});
+
+}
+
+8) public CelestialObject(Double distanceFromSol) {
+	CelestialObject pern = newCelestialObject ((2*(distanceFromSol)));
+}
+
+
+9) public Sun(Double maxSurfaceTemperature) {
+	Sun diana = new Sun (2*(maxSurfaceTemperature));
+}
+
+10) public Pluto(boolean isPlanetOrNot) {
+	Pluto bigger = new Pluto (true);
+}
+
+
+ASSIGNMENT 2:
+
+1) new Car() 
+public Car()  
+
+2) new Car("Red", 4)
+public Car( String color, int doors)
+
+3) new Bus(32)
+public Bus (int capacity)
+
+4) new HotDog("Ketchup", "Mustard")
+public HotDog (String topping1, String topping2)
+
+5) new Aroma("Bad")
+public Aroma (String odor)
+
+6) new Behavior(true)
+public Behavior (Boolean behavior)
+
+7) new Assignment(false)
+public Assignment (boolean done)
+
+8) new AstronomicalDistance(10, 20)
+public AstronomicalDistance (int lightYears int radioDelay)
+
+9) new DateTime(2016, 07, 22) {
+public DateTime (int year, int month, int day)
+
+10) new Assignment("You are done! Go Home!")
+Public Assignment (String orders)
